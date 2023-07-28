@@ -1,0 +1,15 @@
+footer.container.py-5 
+    .row 
+        .col-md-6 
+            nav.nav.footer.justify-content-center.justify-content-md-start
+                a.nav-link(href="/nosotros") Nosotros
+                a.nav-link(href="/viajes") Viajes
+                a.nav-link(href="/testimoniales") Testimoniales
+        .col
+            //-es lo mismo que p(class="copyright" o <p class="copyright>"
+            p.copyright.text-center.text-md-right
+                |TODOS LOS DERECHOS RESERVADOS 
+                span= actualYear
+                //-esto lo que hace es que le asigna el valor de la variable a span
+            
+                
